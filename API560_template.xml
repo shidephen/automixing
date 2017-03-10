@@ -1,0 +1,19 @@
+<PresetChunkXMLTree version="2">
+    <Preset Name="" GenericType="A560">
+        <PresetHeader>
+            <PluginName>API-560</PluginName>
+            <PluginSubComp>AE5M</PluginSubComp>
+            <PluginVersion>9.6.0.155</PluginVersion>
+            <ActiveSetup>SETUP_A</ActiveSetup>
+            <ReadOnly>true</ReadOnly>
+        </PresetHeader>
+        <PresetData Setup="SETUP_A">
+            <Parameters Type="RealWorld">0       1   3  5  7   9  0   2   4  6  8    1    * 1   1 * * * * * 0 0 10</Parameters>
+			<!--                     output_gain 63 250 1K 4K 16K 31 125 500 2K 8K analog * in pol..-->
+			<!--                     0           1   2   3 4   5  6   7   8  9  10 analog * in pol..-->
+        </PresetData>
+        <PresetData Setup="SETUP_B">
+            <Parameters Type="RealWorld">0 0 0 0 0 0 0 0 0 0 0 1 * 1 0 * * * * * 0 0 14 </Parameters>
+        </PresetData>
+    </Preset>
+</PresetChunkXMLTree>

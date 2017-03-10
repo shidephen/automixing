@@ -1,0 +1,18 @@
+<PresetChunkXMLTree version="2">
+    <Preset Name="Untitled Preset" GenericType="L2  ">
+        <PresetHeader>
+            <PluginName>L2</PluginName>
+            <PluginSubComp>L2MS</PluginSubComp>
+            <PluginVersion>9.6.0.155</PluginVersion>
+            <ActiveSetup>SETUP_A</ActiveSetup>
+            <ReadOnly>true</ReadOnly>
+        </PresetHeader>
+        <PresetData Setup="SETUP_A" SetupName="Untitled Preset">
+             <Parameters Type="RealWorld">0 -9 -0.3 * * * * * 0 0 0 0 2 1 </Parameters>
+             <!--                       Release threshold ceiling * * * * * Quantize U U Dither Shaping ARC-->
+        </PresetData>
+        <PresetData Setup="SETUP_B">
+            <Parameters Type="RealWorld">1 0 0 * * * * * 0 0 0 1 2 1 </Parameters>
+        </PresetData>
+    </Preset>
+</PresetChunkXMLTree>
